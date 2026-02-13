@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RIFT Programming Language</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="grid-bg noise">
+<header class="site-header">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-6">
+    <a href="index.html" class="brand">RIFT LANGUAGE</a>
+    <nav class="hidden md:flex items-center gap-5">
+      <a data-nav class="nav-link" href="docs-lite.html">Learn</a><a data-nav class="nav-link" href="docs-lite.html">Docs</a><a data-nav class="nav-link" href="compare.html">Compare</a><a data-nav class="nav-link" href="install.html">Install</a><a data-nav class="nav-link" href="showcase.html">Showcase</a><a data-nav class="nav-link" href="community.html">Community</a><a data-nav class="nav-link" href="performance.html">Performance</a>
+    </nav>
+    <div class="flex items-center gap-2"><button data-theme-toggle class="btn">Theme</button><a class="btn primary" href="install.html">Get Started</a></div>
+  </div>
+</header>
+<main>
+  <section class="section"><div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-10 items-center">
+    <div class="reveal">
+      <p class="section-eyebrow">RIFT (Rapid Integrated Framework Technology)</p>
+      <h1 class="hero-title">RIFT — more with less</h1>
+      <p class="muted text-lg">A modern dynamic language with compact delimiters, composable primitives, and high-signal syntax designed to reduce boilerplate while preserving clarity.</p>
+      <div class="editorial-underline mt-6 mb-8"></div>
+      <div class="flex flex-wrap gap-3"><a class="btn primary" href="install.html">Install</a><a class="btn" href="docs-lite.html">Learn</a><a class="btn" href="compare.html">Compare</a></div>
+    </div>
+    <div class="terminal p-5 reveal" data-parallax="0.04">
+      <div class="text-xs text-slate-400 mb-2">Get Started in 60 Seconds</div>
+      <pre class="code !bg-transparent !border-0 !p-0" data-install-typing></pre>
+      <pre class="code mt-3">conduit main() @
+    print("Hello, World!")
+#</pre>
+      <a href="docs-lite.html" class="text-sm text-blue-300">Next: read quickstart →</a>
+    </div>
+  </div></section>
+
+  <section class="section"><div class="max-w-7xl mx-auto px-6">
+    <p class="section-eyebrow">Language Pillars</p>
+    <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 mt-4">
+      <article class="panel p-5 reveal"><h3 class="font-semibold">Minimal syntax</h3><p class="muted">Block delimiters and compact forms keep structure visible with less punctuation overhead.</p></article>
+      <article class="panel p-5 reveal"><h3 class="font-semibold">Reduced boilerplate</h3><p class="muted">Core tasks can be authored with fewer repeated constructs and shorter control paths.</p></article>
+      <article class="panel p-5 reveal"><h3 class="font-semibold">Composable primitives</h3><p class="muted">Functions, classes, pattern checks, and module primitives compose without framework lock-in.</p></article>
+      <article class="panel p-5 reveal"><h3 class="font-semibold">Readability-first design</h3><p class="muted">Dense where needed, explicit where it matters, optimized for code review velocity.</p></article>
+    </div>
+  </div></section>
+
+  <section class="section"><div class="max-w-7xl mx-auto px-6">
+    <div class="panel p-6 reveal" data-line-reducer>
+      <p class="section-eyebrow">Signature Visualization</p>
+      <h2 class="section-title">Line Count Reducer</h2>
+      <p class="muted mt-2"><span class="source-lang">Python</span> sample collapses into RIFT while preserving behavior.</p>
+      <div class="grid md:grid-cols-3 gap-3 mt-4 text-center">
+        <div class="panel p-4"><div class="text-xs muted">Source lines</div><div class="text-3xl font-bold source-lines">8</div></div>
+        <div class="panel p-4"><div class="text-xs muted">RIFT lines</div><div class="text-3xl font-bold target-lines">7</div></div>
+        <div class="panel p-4"><div class="text-xs muted">Delta</div><div class="text-3xl font-bold text-emerald-400">-1</div></div>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="section"><div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-3 gap-4">
+    <article class="panel p-5 reveal"><h3 class="font-semibold">Docs Preview</h3><pre class="code mt-2">conduit add(a: num, b: num): num @
+    give a + b
+#</pre><a href="docs-lite.html" class="text-blue-400 text-sm">Open docs-lite →</a></article>
+    <article class="panel p-5 reveal"><h3 class="font-semibold">Ecosystem Preview</h3><p class="muted">Package index, starter templates, and integration tools are structured for composable projects.</p><a href="showcase.html" class="text-blue-400 text-sm">Browse showcase →</a></article>
+    <article class="panel p-5 reveal"><h3 class="font-semibold">Community & Roadmap</h3><p class="muted">Governance process, contribution path, release milestones, and long-term language stewardship.</p><a href="community.html" class="text-blue-400 text-sm">View governance →</a></article>
+  </div></section>
+
+  <section class="section"><div class="max-w-7xl mx-auto px-6"><div class="panel p-8 flex flex-wrap justify-between items-center gap-4 reveal"><div><h3 class="text-2xl font-semibold">Build with RIFT today.</h3><p class="muted">Install, read docs, and join the language community.</p></div><div class="flex gap-2"><a class="btn primary" href="install.html">Install</a><a class="btn" href="docs-lite.html">Docs</a><a class="btn" href="community.html">Join Community</a></div></div></div></section>
+</main>
+<footer class="footer"><div class="max-w-7xl mx-auto px-6 grid md:grid-cols-5 gap-4 text-sm"><a href="community.html" class="muted">License</a><a href="community.html" class="muted">Governance</a><a href="community.html" class="muted">Code of Conduct</a><a href="community.html" class="muted">Contribution</a><code class="muted">curl -fsSL https://rift.astroyds.com/rift/install.sh  | sh</code></div></footer>
+<script src="assets/js/data.js"></script><script src="assets/js/main.js"></script>
+</body></html>
